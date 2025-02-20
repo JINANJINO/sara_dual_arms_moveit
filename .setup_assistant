@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: sara_dual_arms
+    relative_path: robot_description/sara_dual_arms.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/tb3_sara.srdf
+  CONFIG:
+    author_name: leejinhan
+    author_email: dlwlsgks3579@gmail.com
+    generated_timestamp: 1739934665

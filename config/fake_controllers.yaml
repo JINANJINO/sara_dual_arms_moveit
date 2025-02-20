@@ -1,0 +1,36 @@
+controller_list:
+  - name: fake_sara_1_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - sara_1_joint1
+      - sara_1_joint2
+      - sara_1_joint3
+      - sara_1_joint4
+      - sara_1_joint5
+      - sara_1_joint6
+  - name: fake_sara_1_gripper_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - sara_1_gripper
+  - name: fake_sara_2_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - sara_2_joint1
+      - sara_2_joint2
+      - sara_2_joint3
+      - sara_2_joint4
+      - sara_2_joint5
+      - sara_2_joint6
+  - name: fake_sara_2_gripper_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - sara_2_gripper
+initial:  # Define initial robot poses per group
+  - group: sara_1_arm
+    pose: sara_1_ready
+  - group: sara_1_gripper
+    pose: sara_1_open
+  - group: sara_2_arm
+    pose: sara_2_ready
+  - group: sara_2_gripper
+    pose: sara_2_open
