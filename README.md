@@ -9,3 +9,5 @@ This package provides MoveIt configuration files for the dual-arm robot, generat
 - MoveIt configuration setup
 - Pre-configured motion planning settings
 - Demo launch files
+
+(This project was created as part of an undergraduate team research project in robotics engineering.)
