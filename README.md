@@ -2,10 +2,10 @@
 
 This package provides MoveIt configuration files for the dual-arm robot, generated via **MoveIt Setup Assistant** using the URDF from the [`sara_dual_arms`](https://github.com/original-repo/sara_dual_arms) repository.
 
-## 🚨 Important Notice  
+## Important Notice  
 **The ACT (Action Chunking with Transformers) algorithm code is not available in this repository.** This repository contains **only** the MoveIt configuration and simulation environment.
 
-## 📦 Contents
+## Contents
 - MoveIt configuration setup
 - Pre-configured motion planning settings
 - Demo launch files
